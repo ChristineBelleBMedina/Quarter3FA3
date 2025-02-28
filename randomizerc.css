@@ -1,0 +1,31 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: pink;
+    color: white;
+    margin: 50px;
+}
+
+.randomizer{
+    width: 60%;
+    background-color: #d87093;
+    border-radius: 15px;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Booth</title>
+    <link rel="stylesheet" href="randomizerc.css"> 
+</head>
+<body>
+
+    <div class="randomizer">
+        <br>
+        <h1> THE BEST BOOTH GOES TO...</h1>
+        <p>The three booths <b> (Foods, Drinks, Games) </b> are competing on who will be the best.</p>
+        
+        <h3>THE NUMBER OF VISITORS WHO VISITED EACH BOOTH:</h3>
+        <table>
+            <tr>
+                <th>Foods</th>
+                <th>Drinks</th>
+                <th>Games</th>
+            </tr>
+            <tr>
+                <td id="foods"></td>
+                <td id="games"></td>
+                <td id="drinks"></td>
+            </tr>
+        </table>
+
+        <p id="maxB"></p>
+        <p id="name"></p>
+        <p id="time"></p>
+
+        <button onclick="randomizerBooth()">Click to view the results</button><br><br>
+    </div>
+
+    <script src="randomizerj.js"></script> 
+</body>
+</html>
