@@ -28,7 +28,7 @@ function randomizerBooth() {
     hours = Math.floor(totalMinutes / 60);
     minutes = totalMinutes % 60;
 
-    document.getElementById("maxB").innerHTML = `The booth that had the most visitor is: <b> ${maxBiggest} (${biggest}). </b>`;
+    document.getElementById("maxB").innerHTML = `The booth that had the most visitors is: <b> ${maxBiggest} (${biggest}). </b>`;
     document.getElementById("name").innerHTML = `The name of the person who visited the most in the Games Booth starts with letter: <b> ${nthLetter} </b>`;
     document.getElementById("time").innerHTML = `The estimated time for the games to finish in the Games Booth is (${totalMinutes} mins): <b> ${hours}hr ${minutes}min. </b>`;
 }
